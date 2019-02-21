@@ -8,25 +8,24 @@ If an error event is received, it will be returned in the following format
 ```
 We reserve the right to block API calls from users who we believe are making API calls with the intention of trying to disrupt the operation of the exchange.
 
-Access methods
+## Access methods
+- Public (Pull) Public API Methods using HTTP POST
+- Authenticated Authenticated API Methods
 
-    Public (Pull) Public API Methods using HTTP POST
-    Authenticated Authenticated API Methods
-
-Method index:
+## Method index:
 - getticker Get current ticket data
 - get24hvolume Get 24 hour volume
-    getorders Get open orders
-    gettradehistory Get trade history
-    getcoins Get coins listed.
-    getmybalances Get my balances
-    withdraw Withdraw coins
-    getmyaddresses Get deposit addresses
-    getmytradehistory Get you trade history
-    buy Place a buy order
-    sell Place a sell order
-    getmyopenorders Get my open orders
-    cancelorder Cancel an open order
+- getorders Get open orders
+- gettradehistory Get trade history
+- getcoins Get coins listed.
+- getmybalances Get my balances
+- withdraw Withdraw coins
+- getmyaddresses Get deposit addresses
+- getmytradehistory Get you trade history
+- buy Place a buy order
+- sell Place a sell order
+- getmyopenorders Get my open orders
+- cancelorder Cancel an open order
 
 # Public API
 
