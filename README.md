@@ -32,11 +32,12 @@ We reserve the right to block API calls from users who we believe are making API
 Requests should be sent to https://tuxexchange.com.
 
 [View online](https://www.tuxexchange.com/api?method=getticker)
+
 Generic unauthenticated HTTP POST request example using CURL:
 ```
 curl --data "method=getticker" https://tuxexchange.com/api
 ```
-getticker
+### getticker
 
 method: getticker
 
