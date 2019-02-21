@@ -29,7 +29,7 @@ Method index:
     getmyopenorders Get my open orders
     cancelorder Cancel an open order
 
-Public API
+# Public API
 
 Requests should be sent to https://tuxexchange.com.
 
@@ -51,13 +51,13 @@ amount                  amount of desired coin to trade
 price                   price to place trade
 
 curl example:
-
+```
 curl --data "method=getticker" https://tuxexchange.com/api
-
+```
 Example Output:
-
+```
 {"BTC_LTC":{"id":"2","last":"0.0068","lowestAsk":0,"highestBid":0,"percentChange":"6.249999999999989","quoteVolume":"0.5550265","isFrozen":0,"baseVolume":0,"high24hr":"0.0068","low24hr":"0.0064"},"BTC_DOGE":{"id":"4","last":"0.00000037","lowestAsk":0,"highestBid":0,"percentChange":"-5.128205128205133","quoteVolume":"64799.10656484","isFrozen":0,"baseVolume":0,"high24hr":"0.0000005","low24hr":"0.00000035"},"BTC_DASH":{"id":"12","last":"0.02277001","lowestAsk":0,"highestBid":0,"percentChange":"0","quoteVolume":"0.00439175","isFrozen":0,"baseVolume":0,"high24hr":"0.02277001","low24hr":"0.02277001"},"BTC_PPC":{"id":"13","last":"0.00061234","lowestAsk":0,"highestBid":0,"percentChange":"2.056666666666668","quoteVolume":"0.23616667","isFrozen":0,"baseVolume":0,"high24hr":"0.00061234","low24hr":"0.0006"}}
-
+```
 get24hvolume
 View Online
 
