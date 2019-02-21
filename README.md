@@ -1,6 +1,6 @@
 # Tux Exchange Official API Documentation
 
-Tux Exchange [Tux Exchange](https://www.tuxexchange.com) provides access to the API via HTTP POST wth JSON formated data repsonses.
+[Tux Exchange](https://www.tuxexchange.com) provides access to the API via HTTP POST wth JSON formated data repsonses.
 
 If an error event is received, it will be returned in the following format
 ```
@@ -14,9 +14,8 @@ Access methods
     Authenticated Authenticated API Methods
 
 Method index:
-
-    getticker Get current ticket data
-    get24hvolume Get 24 hour volume
+- getticker Get current ticket data
+- get24hvolume Get 24 hour volume
     getorders Get open orders
     gettradehistory Get trade history
     getcoins Get coins listed.
