@@ -1,6 +1,6 @@
 # Tux Exchange Official API Documentation
 
-Tux Exchange provides access to the API via HTTP POST wth JSON formated data repsonses.
+Tux Exchange [Tux Exchange](https://www.tuxexchange.com) provides access to the API via HTTP POST wth JSON formated data repsonses.
 
 If an error event is received, it will be returned in the following format
 ```
@@ -329,7 +329,7 @@ id                 	Order ID of trade you would like to cancel.
 market		  	Market name (i.e. BTC)
 
 PHP EXample Client
-
+```
 function api_query($method, array $req = array()) {
         // Obtain API keys under settings.
         $publickey = ''; 
@@ -393,14 +393,4 @@ $result = api_query("cancelorder", array("id" => "1234123", "market" => "BTC"));
 
 // Request a withdraw.
 $result = api_query("withdraw", array("coin" => "DOGE","address" => "DM2DasYjU1RWePFSLHFJqFMBtHSWbKmHpR", "amount" => "300"));
-
-
-About | API Documentation | Support | FAQ | Terms Of Service | Privacy
-
-UTC Server Time: 2019-02-21 03:02:46
-
-Copyright © Tux Exchange - 2414534 Ontario Inc. 2019
-Server:
-
-PADE5ypShSnNcfYm
-
+```
