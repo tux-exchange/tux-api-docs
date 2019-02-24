@@ -3,7 +3,7 @@
 [Tux Exchange](https://www.tuxexchange.com) provides access to the API via HTTP POST wth JSON formated data repsonses.
 
 If an error event is received, it will be returned in the following format
-```
+```json
 {"error":{"error message"}}
 ```
 We reserve the right to block API calls from users who we believe are making API calls with the intention of trying to disrupt the operation of the exchange.
